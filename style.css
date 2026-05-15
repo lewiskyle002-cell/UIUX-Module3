@@ -17,24 +17,32 @@ body{
 
 #navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 a.nav-item {
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a.nav-item:hover {
     color: #DAC8B3;
 }
 
-.btn {
-    padding: 20px;
+.btn.btn-cta {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color:#fff;
+    margin-left: 30px;
+}
+
+.btn.btn-cta:hover {
+    background-color: #fff;
+    color: #8A9A5B;
 }
 
 #hero {
@@ -46,14 +54,14 @@ a.nav-item:hover {
 
 #hero-title {
     font-size: 100px;
-    color: #fff;
+    color: #000000;
     margin: 0;
     padding: 30px;
 }
 
 #hero-subtitle {
     font-size: 20px;
-    color: #fff;
+    color: #ffffff;
     margin: 0;
     padding: 30px;
 }
