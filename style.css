@@ -66,11 +66,27 @@ a.nav-item:hover {
     padding: 30px;
 }
 
-#showcase ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
+#projects {
+    height:1000px;
+    background-color: #ffd19c;
+    padding: 30px;
+
 }
 
+#projects-title {
+    font-size: 50px;
+    color: #b40000;
+    margin: 0;
+    padding: 30px;
+}
+
+#projectbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+b.project-item {
+    color: #000000;
+    font-size: 20px;
+}
