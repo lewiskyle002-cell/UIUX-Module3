@@ -85,11 +85,16 @@ a.nav-item:hover {
     text-decoration: none;
     display: flex;
     gap: 100px;
+    padding-top: 500px;
 }
 
 b.project-item {
     color: #000000;
     font-size: 30px;
+}
+
+b.project-item:hover {
+    color: #b40000;
 }
 
 #Skillsets {
