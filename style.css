@@ -80,13 +80,40 @@ a.nav-item:hover {
     padding: 30px;
 }
 
-#projectbar ul{
+#projectnav ul{
     list-style-type: none;
+    text-decoration: none;
     display: flex;
     gap: 100px;
 }
 
 b.project-item {
     color: #000000;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+#Skillsets {
+    height: 1000px;
+    background-color: #b3d1da;
+    padding: 30px;
+}
+
+#Skillsets-title {
+    font-size: 50px;
+    color: #b40000;
+    margin: 0;
+    padding: 30px;
+}
+
+#Experience {
+    height: 1000px;
+    background-color: #8A9A5B;
+    padding: 30px;
+}
+
+#Experience-title {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
 }
