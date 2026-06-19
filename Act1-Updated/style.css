@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #8A9A5B;
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+a.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.nav-item:hover {
+    color: #DAC8B3;
+}
+
+.btn.btn-cta {
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    color:#000000;
+    margin-left: 30px;
+}
+
+.btn.btn-cta:hover {
+    background-color: #ffffff;
+    color: #8A9A5B;
+}
+
+#hero {
+    height: 1000px;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    padding: 20px;
+}
+
+#hero-title {
+    font-size: 100px;
+    color: #000000;
+    margin: 0;
+    padding: 30px;
+}
+
+#hero-subtitle {
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    padding: 30px;
+}
+
+#projects {
+    height:1000px;
+    background-color: #ffd19c;
+    padding: 30px;
+
+}
+
+#projects-title {
+    font-size: 50px;
+    color: #b40000;
+    margin: 0;
+    padding: 30px;
+}
+
+#projectnav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.pic-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+}
+
+.pic-btn img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.pic-btn:hover {
+    color: #b40000;
+}
+
+#Skillsets {
+    height: 1000px;
+    background-color: #b3d1da;
+    padding: 30px;
+}
+
+#Skillsets-title {
+    font-size: 50px;
+    color: #b40000;
+    margin: 0;
+    padding: 30px;
+}
+
+#Experience {
+    height: 1000px;
+    background-color: #8A9A5B;
+    padding: 30px;
+}
+
+#Experience-title {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
